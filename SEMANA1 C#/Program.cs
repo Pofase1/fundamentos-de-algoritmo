@@ -22,22 +22,42 @@ namespace SEMANA1_C_
             Console.Write("Ingrese su nombre: ");
             nombre = Console.ReadLine();
 
-            Console.Write("Ingrese su nombre: ");
+            Console.Write("Ingrese su carrera: ");
             carrera = Console.ReadLine();
 
             Console.WriteLine($"{nombre}, bienbenido al curso FA de {carrera}");
 
-            
+
 
         }
-            static void ejer2()
+        static void ejer2()
         {
             Console.WriteLine("\"Dylan\"");
         }
+        static void ejer3()
+        {
+            Console.Write("Ingrese x: ");
+            int x = int.Parse(Console.ReadLine());
+
+            Console.Write("Ingrese y:");
+            int y = Convert.ToInt32(Console.ReadLine());
+
+            int sum = x + y;
+            double divi = (double)x / (double)y;
+
+
+            Console.WriteLine("Suma: " + (x + y));
+            Console.WriteLine("Resta:" + (x - y));
+            Console.WriteLine("Multiplicacion:" + (x * y));
+            Console.WriteLine("Division:" + (x / y));
+
+        }
     }
+
+
 }
-        
-        
+
+
 
 
 
