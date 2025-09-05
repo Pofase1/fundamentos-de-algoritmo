@@ -27,12 +27,15 @@ namespace SEMANA1_C_
 
             Console.WriteLine($"{nombre}, bienbenido al curso FA de {carrera}");
 
+            
 
         }
-
+            static void ejer2()
+        {
+            Console.WriteLine("\"Dylan\"");
+        }
     }
 }
-
         
         
 
